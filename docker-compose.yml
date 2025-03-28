@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  spotify-sse-mcp:
+    image: spotify-sse-mcp
+    ports:
+      - "8080:8080"
+
+  test-sse-mcp:
+    image: test-sse-mcp
+    ports:
+      - "8080:8080"
