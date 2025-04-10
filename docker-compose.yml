@@ -10,3 +10,8 @@ services:
     image: test-sse-mcp
     ports:
       - "8080:8080"
+
+  azuredevops-sse-mcp:
+    image: azuredevops-sse-mcp
+    ports:
+      - "8080:8080"

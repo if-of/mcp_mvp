@@ -4,7 +4,7 @@
 ```
 
 ```shell
-  docker build -t spotify-sse-mcp .
+  docker build -t spotify-sse-mcp -f ./spotify.Dockerfile .
 ```
 
 # Test container
@@ -12,6 +12,7 @@
   docker build -t test-sse-mcp -f ./test.Dockerfile .
 ```
 
+# Azure-devops container
 ```shell
-  docker compose up
+  docker build -t azuredevops-sse-mcp -f ./azuredevops.Dockerfile .
 ```
